@@ -3,3 +3,40 @@ body {
   margin: auto;
   background: #061508;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #DFDFDF;
+  padding: 18px;
+}
+
+.shopping-button {
+  height: 40px;
+  padding: 7px 0 0 0;
+}
+
+.brand {
+  height: 50px;
+}
+
+.search-button {
+  height: 35px;
+  padding: 7px 7px 0 0;
+}
+
+.description {
+  font-family: 'Maven Pro', sans-serif;
+  color: white;
+  padding: 12px 0 12px 0;
+}
+
+.description strong {
+  color: #008769;
+}
+
+main img {
+ height: 359px;
+  border : 10px solid #dfdfdf;
+  
+}
