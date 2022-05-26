@@ -24,6 +24,10 @@ header {
   background-color: #EEEDD9;
 }
 
+.header-sixties {
+  background-color: #00896B;
+}
+
 .shopping-button {
   height: 40px;
   padding: 1px 0 0 0;
@@ -133,13 +137,22 @@ footer a {
   margin: 30px;
 }
 
-.onethousand-fifty{
+.description-years{
   font-family: 'Maven Pro', sans-serif;
-  font-size: 120px;
+  font-size: 80px;
   text-align: center;
-  color:#00896B;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.onethousand-sixties {
+  color: #FFE107;
+  margin: 3px 10px 50px 3px;
+}
+
+.onethousand-fifty {
+  color:#00896B;
+  margin: 3px 10px 50px 3px;
 }
 
 .description-fifties img{
