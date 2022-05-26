@@ -125,6 +125,10 @@ footer a {
   color: black;
 }
 
+.footer-fifties {
+  background: #EEEDD9;
+}
+
 .logo-alien {
   margin: 30px;
 }
@@ -211,4 +215,30 @@ footer a {
 
 .information-subtitle p{
   font-family: 'Maven Pro', sans-serif;
+}
+
+.backtime {
+  margin: 60px;
+}
+
+.backtime a{
+  font-family: 'Maven Pro', sans-serif;
+    font-size: 29px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    border-color: #3D3C37;
+    background: #EEEDD9;
+    color: #00896B;
+    Text-decoration: none;
+}
+
+.backtime a:hover {
+  background-color: #DFDFDF;
+  color: red;
+}
+
+.films-fifties {
+  height: 577px;
 }
