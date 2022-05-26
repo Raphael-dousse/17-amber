@@ -20,6 +20,10 @@ header {
   top: 0px;
 }
 
+.header-fifties {
+  background-color: #EEEDD9;
+}
+
 .shopping-button {
   height: 40px;
   padding: 1px 0 0 0;
@@ -44,19 +48,84 @@ header {
   color: #008769;
 }
 
-main img {
+.picture {
  height: 330px;
   border : 14px solid #dfdfdf;
   margin: 30px 0 30px 0;
 }
 
-main h2 {
+.button-buy {
   font-family: 'Koulen', cursive;
   font-family: 'Maven Pro', sans-serif;
-  background-color: rgb(142, 142, 196);
+  text-decoration: none;
+  margin: 0 125px 0 125px;
   font-size: 30px;
   color: white;
-  padding: 54px;
-  margin: 0 94px 0 94px;
   text-align: center;
 }
+
+.fifties-buy .button-buy {
+  background-color: #EEEDD9;
+  border: 10px #3D3C37;
+  color: #00896B;
+}
+
+.button-buy:hover {
+  background-color: #DFDFDF;
+  color: red;
+}
+
+.sixties-buy .button-buy {
+  background-color: #FFE107;
+  border: 10px #245237;
+  color: #00896B;
+}
+
+.button-buy:hover {
+  background-color: #DFDFDF;
+  color: red;
+}
+
+.seventies-buy .button-buy {
+  background-color: #00896B;
+  border: 10px #592E87;
+  color: #812082;
+}
+
+.button-buy:hover {
+  background-color: #DFDFDF;
+  color: red;
+}
+
+.resellers h1 {
+  font-family: 'Koulen', cursive;
+  font-family: 'Maven Pro', sans-serif;
+  color: white;
+}
+
+.resellers p {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.resellers {
+  color: white;
+  text-align: center;
+  margin: 100px;
+}
+
+footer {
+  background: #DFDFDF;
+  font-family: 'Maven Pro', sans-serif;
+  text-decoration: none;
+  padding: 12px 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-alien {
+  margin: 30px;
+}
+

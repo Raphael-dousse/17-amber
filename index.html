@@ -10,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>HomePage</title>
   </head>
   <body>
-    <header>
+    <header id="top">
       <img class="shopping-button" src="img/shopping-cart.svg" alt="shopping-button">
       <img class="brand" src="img/amber-logo.svg" alt="logo-shop">
-      <img class="search-button" src="img/search.svg" alt="search-button">
+      <img class="search-button" src="img/search.svg" alt="search-button" id="top">
     </header>
       <p class="description">
         Amber is a headphone brand founded in 1953 by Steven Spielberg. With its 
@@ -26,17 +27,17 @@
         get a new feeling with <strong>"Alien"</strong> headphones ! 
       </p>
     <main>
-      <img src="img/homepage-fifties.png" alt="fifites-pitctures">
       <div class="fifties-buy">
-        <h2>Buy now</h2>
+        <img src="img/homepage-fifties.png" alt="fifites-pitctures" class="picture">
+        <a href="fifties.html" class="button-buy">Buy now</a>
       </div>
-      <img src="img/homepage-sixties.png" alt="sixties-pitctures">
-      <div class="sixtities-buy">
-        <h2>Buy now</h2>
+      <div class="sixties-buy">
+        <img src="img/homepage-sixties.png" alt="sixties-pitctures" class="picture">
+        <a href="sixties.html" class="button-buy">Buy now</a>
       </div>
-      <img src="img/homepage-seventies.png" alt="seventies-pitctures">
       <div class="seventies-buy">
-        <h2>Buy now</h2>
+        <img src="img/homepage-seventies.png" alt="seventies-pitctures" class="picture">
+        <a href="seventies.html" class="button-buy">Buy now</a>
       </div>
       <div class="resellers">
         <h1>Buy here</h1>
@@ -51,5 +52,18 @@
         </p>
       </div>
     </main>
+    <img src="img/alien-logo.svg" alt="logo-alien" class="logo-alien">
+    <footer>
+      <h2>Contact</h2>
+      <a href="https://www.instagram.com/alienfilmsmao/">Instagram</a>
+      <br>
+      <a href="https://fr-fr.facebook.com/">Facebook</a>
+      <br>
+      <a href="tel:00412689833">+41 26 898 33 78</a>
+      <br>
+      <a href="mailto:amberphone@ambgallery.com">amberphone@ambgallery.com</a>
+      <br>
+        <a class="button-top" href="#top"><span class="material-symbols-outlined">arrow_upward</span></a>
+    </footer>
   </body>
 </html>
