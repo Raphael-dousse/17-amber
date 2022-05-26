@@ -42,13 +42,13 @@ header {
   padding: 0 7px 7px 0;
 }
 
-.description {
+.description-concept {
   font-family: 'Maven Pro', sans-serif;
   color: white;
   padding: 12px 5px 0 5px;
 }
 
-.description strong {
+.description-concept strong {
   color: #008769;
 }
 
@@ -133,11 +133,15 @@ footer a {
   background: #EEEDD9;
 }
 
+.footer-sixties {
+  background: #00896B;
+}
+
 .logo-alien {
   margin: 30px;
 }
 
-.description-years{
+.description-years {
   font-family: 'Maven Pro', sans-serif;
   font-size: 80px;
   text-align: center;
@@ -165,7 +169,16 @@ footer a {
   padding: 17px 67px 17px 67px;
 }
 
+.picture-sixties {
+  background-color: #00896B;
+  padding: 17px 67px 17px 67px;
+}
+
 .picture-fifties img{
+  height: 430px;
+}
+
+.picture-sixties img{
   height: 430px;
 }
 
@@ -184,6 +197,16 @@ footer a {
     background: #EEEDD9;
     color: #00896B;
     Text-decoration: none;
+}
+
+.buy-button-sixties a {
+  border-color: #245237;
+  background: #FFE107;
+  color: #00896B;
+}
+
+.buy-button-sixties {
+  margin-bottom: 16px;
 }
 
 .buy-box a:hover {
@@ -207,7 +230,18 @@ footer a {
   background: #EEEDD9;
 }
 
+.information-box-sixties {
+  background: #00896B;
+}
+
 .information-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 10px 0 10px;
+}
+
+.information-title-sixties {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -217,6 +251,11 @@ footer a {
 .information-title h3{
   font-family: 'Maven Pro', sans-serif;
   color: #00896B;
+}
+
+.information-title-sixties h3{
+  font-family: 'Maven Pro', sans-serif;
+  color: white;
 }
 
 .information-subtitle {
@@ -247,6 +286,12 @@ footer a {
     Text-decoration: none;
 }
 
+.backtime-sixties a{
+  border-color: #245237;
+  background: #FFE107;
+  color: #00896B;
+}
+
 .backtime a:hover {
   background-color: #DFDFDF;
   color: red;
@@ -254,4 +299,8 @@ footer a {
 
 .films-fifties {
   height: 577px;
+}
+
+.films-sixties {
+  height: 586px;
 }
